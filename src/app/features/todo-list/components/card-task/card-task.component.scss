@@ -1,0 +1,11 @@
+.container-task{
+    cursor: pointer;
+
+    .options-task{
+        display: none;
+    }
+
+    &:hover .options-task{
+        display: flex;
+    }
+}

@@ -1,0 +1,95 @@
+// General var
+$font-general: Poppins, sans-serif;
+$font-secondary: 'DM Sans', sans-serif;
+
+//Font Size
+$display-0: 56px;
+$display-1: 46px;
+$display-2: 38px;
+$display-3: 32px;
+$display-4: 28px;
+$display-5: 24px;
+$display-6: 20px;
+$text-big: 18px;
+$text-base: 16px;
+$text-small: 14px;
+$text-super-small: 12px;
+
+//Font Weight
+$font-bold: 600;
+$font-SemiBold: 500;
+$font-medium: 400;
+$font-regular: 300;
+
+//Border Radius
+$border-radius-full: 50%;
+$border-radius: 10px;
+$border-radius-none: 0;
+
+//Color
+$white: #fff;
+$black: #000;
+
+//Gray
+$color-banner-app: #f7f7f7;
+$color-gray-hover: #f9fafb;
+$color-gray-100: #f5f5fa;
+$color-gray-200: #dee2e6;
+$color-gray-300: #c7c7c7;
+$color-gray-400: #8e8e8e;
+$color-gray-500: #565656;
+$color-gray-600: #1d1d1d;
+
+//Primary color
+$color-primary-400: #009980;
+$color-primary-300: #03bd85;
+$color-primary-200: #32e1ac;
+$color-primary-100: #c5f6cf;
+
+//Secondary color
+$color-secondary: #004a51;
+$color-secondary-300: #004a51;
+$color-secondary-200: #d2e1e5;
+$color-secondary-100: #e8edee;
+
+//Green
+$color-green-100: #c6f6cf;
+$color-green-200: #2ff270;
+$color-green-300: #00c257;
+
+//Accent
+$color-yellow: #e6db41;
+$color-link-visited: #3c27a0;
+$color-informative: #3c27a0;
+$color-link: #214CA1;
+$color-warning: #fd7835;
+$color-error: #ff3f2e;
+$color-success: #00c357;
+$background-error: #FFBFB9;
+$background-success: #C5F6CF;
+$background-warning: #F0D99E;
+$background-info: #D1CDEF;
+
+//Shadow
+$shadow-small: 0px 0px 5px $color-gray-300;
+$shadow-medium: 0px 3px 12px $color-gray-300;
+$shadow-large: 0px 6px 24px $color-gray-300;
+$shadow: 0px 3px 12px $color-gray-300;
+$elevation: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+  0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+
+//Padding
+$padding-xxs: 5px;
+$padding-xs: 10px;
+$padding-s: 16px;
+$padding-m: 20px;
+$padding-l: 26px;
+$padding-xl: 35px;
+
+//Opacity
+$opacity-l: 1;
+$opacity-m: 0.6;
+$opacity-s: 0.3;
+$opacity-xs: 0.1;
+
+// End general var

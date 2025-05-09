@@ -1,0 +1,128 @@
+// Global style
+
+a, li, span, h1, h2, h3, h4, h5, h6, label, input, .btn, button, select {
+  font-family: $font-general
+}
+h1, h2, h3, h4, h5, h6{
+  font-weight: $font-regular;
+  color: $color-secondary;
+}
+h1{
+  font-size: $display-1;
+}
+h2{
+  font-size: $display-2;
+}
+h3{
+  font-size: $display-3;
+}
+h4{
+  font-size: $display-4;
+}
+h5{
+  font-size: $display-5;
+}
+h6{
+  font-size: $display-6;
+}
+p{
+  font-family: $font-secondary;
+  font-size: $text-base;
+  font-weight: $font-regular;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  .label-input{
+    color: $color-gray-600;
+    margin-bottom: 5px;
+  }
+  .required-input{
+    color: $color-error;
+  }
+}
+
+a{
+  font-family: $font-secondary;
+  font-size: $text-small;
+  padding: 4px 6px;
+  font-weight: 400;
+  color: $color-informative;
+  text-decoration: underline;
+  &.iconStart::before{
+    text-decoration: none;
+    font-family: "Material Icons";
+    content: "\e87d";
+  }
+  &.iconEnd::after{
+    text-decoration: none;
+    font-family: "Material Icons";
+    content: "\e87d";
+  }
+  &:hover{
+    background-color: $color-gray-100;
+    padding: 4px 6px;
+    border-radius: $border-radius-none;
+  }
+  &:focus{
+    background-color: $color-gray-100;
+    border-radius: 0;
+    border: solid 1px $black;
+  }
+  &:visited{
+    color: $color-link-visited
+  }
+  &:disabled{
+    color: $color-gray-400;
+  }
+}
+
+.large-button {
+  padding: 20px;
+  min-height: 60px;
+}
+.medium-button {
+  padding: 15px;
+  min-height: 50px;
+}
+.small-button {
+  padding: 10px;
+  min-height: 40px;
+}
+
+.row-spacing{
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.progressValue{
+  position: relative;
+  width: 400px;
+  span{
+    font-family: $font-secondary;
+    font-size: $text-small;
+    padding-bottom: $padding-xxs;
+  }
+  .left{
+    float: left;
+  }
+  .right{
+    float: right;
+  }
+
+}
+
+
+.loader {
+  display: flex;
+  svg {
+    width: 150px !important;
+    height: 150px !important;
+    margin: auto;
+  }
+}
+
+// End global style
+

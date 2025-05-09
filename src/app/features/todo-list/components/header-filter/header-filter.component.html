@@ -1,0 +1,22 @@
+<section class="d-flex gap-2 flex-wrap justify-content-between align-items-center">
+    <div class="d-flex gap-2">
+        <div>
+            <input (click)="filterChange.emit([true,false])" type="radio" class="btn-check" name="tasks" id="all-tasks">
+            <label class="btn btn-outline-info" for="all-tasks">All</label>
+        </div>
+        
+        <div>
+            <input (click)="filterChange.emit([true])" type="radio" class="btn-check" name="tasks" id="completed-tasks">
+            <label class="btn btn-outline-success" for="completed-tasks">Completed</label>
+        </div>
+        
+        <div>
+            <input (click)="filterChange.emit([false])" type="radio" class="btn-check" name="tasks" id="pending-tasks">
+            <label class="btn btn-outline-warning" for="pending-tasks">Pending</label>
+        </div>
+    </div>
+    
+    <span id="counter-tasks" class="badge rounded-pill bg-secondary fs-7">
+        {{tasks().length}} task ({{pendingTasks()}} pending)
+    </span>
+</section>
